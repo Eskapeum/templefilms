@@ -1,26 +1,217 @@
-@import "tailwindcss";
+@import "@fontsource-variable/space-grotesk";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource-variable/unbounded";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-primary: #080808;
+  --bg-secondary: #111110;
+  --bg-tertiary: #1A1918;
+  --accent-gold: #D4912A;
+  --accent-gold-light: #E8DDB5;
+  --accent-gold-dark: #8B5A10;
+  --accent-red: #FF3131;
+  --text-primary: #F0EDE8;
+  --text-secondary: #878580;
+  --text-tertiary: #4A4845;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: auto;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Inter Variable", sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Force default weights to match Google Fonts CDN behavior:
+   Design loads Unbounded@900, Space Grotesk@700, Inter@300;400, JetBrains Mono@400 */
+.font-display { font-weight: 700 !important; }
+.font-brutal { font-weight: 900 !important; }
+
+::selection {
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Film grain overlay */
+.film-grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--text-tertiary); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-gold); }
+
+/* Marquee animations */
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+@keyframes marquee-right {
+  0% { transform: translateX(-33.333%); }
+  100% { transform: translateX(0); }
+}
+.marquee-left { animation: marquee-left 35s linear infinite; }
+.marquee-right { animation: marquee-right 40s linear infinite; }
+.ticker-animation { animation: marquee-left 30s linear infinite; }
+
+/* Hero name marquee */
+@keyframes hero-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.hero-marquee-active { animation: hero-marquee 30s linear infinite; }
+
+/* Text morph: filled <-> outlined */
+@keyframes text-morph {
+  0%, 100% { -webkit-text-fill-color: var(--text-primary); -webkit-text-stroke: 2px transparent; }
+  50% { -webkit-text-fill-color: transparent; -webkit-text-stroke: 2px var(--text-primary); }
+}
+.animate-text-morph { animation: text-morph 6s ease-in-out infinite; }
+
+/* Gold gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Aspect ratio */
+.aspect-21-9 { aspect-ratio: 21 / 9; }
+
+/* Section gap */
+.section-gap { padding: clamp(5rem, 12vw, 10rem) 0; }
+
+/* Credential bullets */
+.cred-list li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent-gold);
+  border-radius: 50%;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+/* Button glow */
+.btn-glow:hover {
+  box-shadow: 0 0 30px rgba(212, 145, 42, 0.3);
+  border-color: #D4912A !important;
+}
+
+/* Massive display text */
+.text-massive {
+  font-size: clamp(3rem, 15vw, 10rem) !important;
+  line-height: 0.9 !important;
+  letter-spacing: -0.05em !important;
+}
+
+/* Magnetic button */
+.btn-magnetic {
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.btn-magnetic:hover {
+  background-color: #F0EDE8 !important;
+  color: #080808 !important;
+  box-shadow: 0 0 40px rgba(212, 145, 42, 0.2) !important;
+}
+
+/* Reveal animation */
+@keyframes reveal-up {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-reveal {
+  animation: reveal-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
+}
+
+/* Sticky filter */
+.sticky-filter {
+  position: sticky;
+  top: 100px;
+  z-index: 40;
+  background: rgba(8, 8, 8, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+/* Select dropdown */
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23D4912A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+
+/* Autofill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #F0EDE8;
+  -webkit-box-shadow: 0 0 0px 1000px #111110 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Hero video grayscale to color transition */
+@keyframes grayscale-to-color {
+  0%, 100% { filter: grayscale(100%); }
+  40%, 60% { filter: grayscale(0%); }
+}
+.animate-grayscale-color {
+  animation: grayscale-to-color 8s ease-in-out infinite;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
