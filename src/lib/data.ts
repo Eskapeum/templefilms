@@ -320,14 +320,6 @@ export const projects: Project[] = [
     thumbnail: "/images/DOCUMENTARY/DOC5.png",
     year: "2024",
   },
-  {
-    id: "doc-6",
-    title: "Documentary VI",
-    category: "docs",
-    role: "DP / Director",
-    thumbnail: "/images/DOCUMENTARY/DOC6.png",
-    year: "2024",
-  },
 
   // ── SOCIAL MEDIA ──
   {
