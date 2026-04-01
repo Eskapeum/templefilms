@@ -85,8 +85,15 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Credentials List */}
+              {/* Portrait + Credentials */}
               <div className="lg:col-span-5">
+                <div className="aspect-square relative overflow-hidden rounded-sm mb-12">
+                  <img
+                    src="/images/Profile.png"
+                    alt="Olabode Lawal portrait"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <p className="font-mono text-[10px] tracking-[0.4em] text-[#D4912A] uppercase mb-12">
                   CREDENTIALS
                 </p>
@@ -137,12 +144,12 @@ export default function AboutPage() {
 
           {/* CTA Section */}
           <section className="py-48 px-6 md:px-12 text-center">
-            <h2 className="font-brutal text-4xl md:text-7xl mb-16 tracking-tighter uppercase">
+            <h2 className="font-brutal text-3xl md:text-5xl lg:text-7xl mb-16 tracking-tighter uppercase">
               START A <span className="text-[#D4912A]">CONVERSATION</span>
             </h2>
             <a
               href="/contact"
-              className="btn-magnetic inline-block font-mono text-sm tracking-[0.4em] border border-[#1A1918] px-20 py-8 uppercase transition-all duration-500 rounded-full"
+              className="btn-magnetic inline-block font-mono text-sm tracking-[0.4em] border border-[#1A1918] px-10 py-6 md:px-20 md:py-8 uppercase transition-all duration-500 rounded-full"
             >
               CONTACT ME
             </a>

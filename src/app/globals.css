@@ -166,6 +166,10 @@ html.lenis body {
   animation: reveal-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
 }
 
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Sticky filter */
 .sticky-filter {
   position: sticky;

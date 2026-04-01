@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback, useEffect } from "react";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import CustomCursor from "@/components/ui/CustomCursor";
 import Navbar from "@/components/layout/Navbar";
@@ -23,21 +23,109 @@ function PlayIcon() {
 
 export default function WorkPage() {
   const [activeCategory, setActiveCategory] = useState<ProjectCategory>("all");
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const filteredProjects =
     activeCategory === "all"
       ? projects
       : projects.filter((p) => p.category === activeCategory);
 
+  const closeLightbox = useCallback(() => setLightboxIndex(null), []);
+
+  const goNext = useCallback(() => {
+    setLightboxIndex((i) => (i !== null ? (i + 1) % filteredProjects.length : null));
+  }, [filteredProjects.length]);
+
+  const goPrev = useCallback(() => {
+    setLightboxIndex((i) => (i !== null ? (i - 1 + filteredProjects.length) % filteredProjects.length : null));
+  }, [filteredProjects.length]);
+
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowRight") goNext();
+      if (e.key === "ArrowLeft") goPrev();
+    };
+    if (lightboxIndex !== null) {
+      document.body.style.overflow = "hidden";
+      window.addEventListener("keydown", handleKey);
+    }
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", handleKey);
+    };
+  }, [lightboxIndex, closeLightbox, goNext, goPrev]);
+
+  const lightboxProject = lightboxIndex !== null ? filteredProjects[lightboxIndex] : null;
+
   return (
     <SmoothScroll>
       <CustomCursor />
       <Navbar />
+
+      {/* Lightbox */}
+      {lightboxProject && (
+        <div
+          className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center cursor-pointer"
+          onClick={closeLightbox}
+        >
+          {/* Close */}
+          <button
+            className="absolute top-8 right-8 font-mono text-sm tracking-[0.3em] text-[#878580] hover:text-white transition-colors uppercase z-[101]"
+            onClick={closeLightbox}
+          >
+            CLOSE
+          </button>
+
+          {/* Counter */}
+          <p className="absolute top-8 left-8 font-mono text-xs tracking-[0.2em] text-[#4A4845] z-[101]">
+            {(lightboxIndex ?? 0) + 1} / {filteredProjects.length}
+          </p>
+
+          {/* Left arrow */}
+          <button
+            className="absolute left-6 md:left-16 top-1/2 -translate-y-1/2 z-[101] w-12 h-12 flex items-center justify-center rounded-full border border-[#1A1918] hover:border-[#D4912A] transition-colors"
+            onClick={(e) => { e.stopPropagation(); goPrev(); }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F0EDE8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+
+          {/* Right arrow */}
+          <button
+            className="absolute right-6 md:right-16 top-1/2 -translate-y-1/2 z-[101] w-12 h-12 flex items-center justify-center rounded-full border border-[#1A1918] hover:border-[#D4912A] transition-colors"
+            onClick={(e) => { e.stopPropagation(); goNext(); }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F0EDE8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+
+          {/* Image */}
+          <div className="relative max-w-[80vw] max-h-[85vh]" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={lightboxProject.thumbnail}
+              alt={lightboxProject.title}
+              className="max-w-full max-h-[85vh] object-contain"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+              <p className="font-mono text-[9px] tracking-[0.3em] text-[#D4912A] uppercase mb-1">
+                {lightboxProject.role}
+              </p>
+              <p className="font-display text-xl md:text-2xl font-bold text-white">
+                {lightboxProject.title}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="min-h-screen film-grain flex flex-col relative bg-[#080808]">
         <main className="flex-1 pt-[100px]">
           {/* Page Header */}
           <header className="py-24 md:py-40 px-6">
-            <h1 className="font-display text-[12vw] md:text-[10vw] font-bold text-center leading-[0.9] tracking-tighter text-[#F0EDE8] uppercase">
+            <h1 className="font-display text-[14vw] md:text-[10vw] font-bold text-center leading-[0.9] tracking-tighter text-[#F0EDE8] uppercase">
               Body of <span className="text-gold-gradient">Work</span>
             </h1>
           </header>
@@ -51,7 +139,7 @@ export default function WorkPage() {
                   <p className="font-mono text-xs tracking-[0.4em] text-[#D4912A] uppercase mb-4">
                     CINEMATOGRAPHER / DIRECTOR
                   </p>
-                  <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-[#F0EDE8]">
+                  <h2 className="font-display text-2xl md:text-4xl lg:text-6xl font-bold tracking-tight text-[#F0EDE8]">
                     FILM &amp; COMMERCIAL REEL
                   </h2>
                 </div>
@@ -81,7 +169,7 @@ export default function WorkPage() {
                   <p className="font-mono text-xs tracking-[0.4em] text-[#D4912A] uppercase mb-4">
                     DP / DIRECTOR / LIGHTING DIRECTOR
                   </p>
-                  <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-[#F0EDE8]">
+                  <h2 className="font-display text-2xl md:text-4xl lg:text-6xl font-bold tracking-tight text-[#F0EDE8]">
                     MUSIC VIDEO REEL
                   </h2>
                 </div>
@@ -129,11 +217,11 @@ export default function WorkPage() {
           {/* Portfolio Grid */}
           <section className="px-6 md:px-12 py-24">
             <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredProjects.map((project) => (
-                <a
+              {filteredProjects.map((project, index) => (
+                <div
                   key={project.id}
-                  href="#"
-                  className="group relative aspect-[16/10] bg-[#111110] overflow-hidden rounded-lg"
+                  onClick={() => setLightboxIndex(index)}
+                  className="group relative aspect-[16/10] bg-[#111110] overflow-hidden rounded-lg cursor-pointer"
                 >
                   <img
                     src={project.thumbnail}
@@ -145,7 +233,7 @@ export default function WorkPage() {
                     <p className="font-mono text-[9px] tracking-[0.3em] text-[#D4912A] uppercase mb-2">
                       {project.role.toUpperCase()}
                     </p>
-                    <h3 className="font-display text-2xl font-bold text-[#F0EDE8] mb-1">
+                    <h3 className="font-display text-xl md:text-2xl font-bold text-[#F0EDE8] mb-1">
                       {project.title.toUpperCase()}
                     </h3>
                     <p className="font-mono text-[10px] text-[#878580]">
@@ -155,7 +243,7 @@ export default function WorkPage() {
                       / {project.year}
                     </p>
                   </div>
-                </a>
+                </div>
               ))}
             </div>
           </section>

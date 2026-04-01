@@ -24,19 +24,19 @@ export default function ContactPage() {
 
         {/* Info */}
         <section className="px-6 md:px-12 py-20 border-t border-[#1A1918]">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-32">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-32">
             <div className="flex flex-col gap-8">
               <p className="font-mono text-[10px] tracking-[0.4em] text-[#D4912A] uppercase">GET IN TOUCH</p>
               <div className="flex flex-col gap-4">
                 <a
                   href="mailto:hello@templefilmsproductions.com"
-                  className="font-body text-xl md:text-3xl text-[#F0EDE8] hover:text-[#D4912A] transition-colors"
+                  className="font-body text-base md:text-xl lg:text-3xl text-[#F0EDE8] hover:text-[#D4912A] transition-colors break-all"
                 >
                   hello@templefilmsproductions.com
                 </a>
                 <a
                   href="mailto:brothaleee@templefilmsproductions.com"
-                  className="font-body text-xl md:text-3xl text-[#F0EDE8] hover:text-[#D4912A] transition-colors"
+                  className="font-body text-base md:text-xl lg:text-3xl text-[#F0EDE8] hover:text-[#D4912A] transition-colors break-all"
                 >
                   brothaleee@templefilmsproductions.com
                 </a>
@@ -47,11 +47,11 @@ export default function ContactPage() {
               <div className="flex flex-col gap-4">
                 <a
                   href="https://instagram.com/Brothaleee"
-                  className="font-body text-xl md:text-3xl text-[#F0EDE8] hover:text-[#D4912A] transition-colors"
+                  className="font-body text-base md:text-xl lg:text-3xl text-[#F0EDE8] hover:text-[#D4912A] transition-colors break-all"
                 >
                   @Brothaleee
                 </a>
-                <p className="font-body text-xl md:text-3xl text-[#878580]">Brooklyn, New York</p>
+                <p className="font-body text-base md:text-xl lg:text-3xl text-[#878580]">Brooklyn, New York</p>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function ContactPage() {
                 <label className="font-mono text-[10px] tracking-[0.2em] text-[#D4912A] uppercase">YOUR NAME</label>
                 <input
                   type="text"
-                  placeholder="John Doe"
+                  placeholder="Olabode Lawal"
                   className="bg-[#111110] border border-[#1A1918] p-5 font-mono text-sm text-[#F0EDE8] focus:border-[#D4912A] outline-none transition-colors rounded-none placeholder:text-[#4A4845]"
                 />
               </div>

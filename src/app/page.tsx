@@ -61,7 +61,7 @@ export default function HomePage() {
         <section className="section-gap px-6 md:px-12">
           <div className="max-w-5xl mx-auto">
             <div className="w-24 h-[1px] bg-[#D4912A] mb-16"></div>
-            <p className="font-body text-2xl md:text-5xl font-light leading-[1.15] text-[#F0EDE8] tracking-tight">
+            <p className="font-body text-xl md:text-2xl lg:text-5xl font-light leading-[1.15] text-[#F0EDE8] tracking-tight">
               A cinematographer based in{" "}
               <span className="italic font-display">Brooklyn, New York</span> — crafting stunning motion pictures across music videos, films, documentaries &amp; commercials.
             </p>
@@ -76,139 +76,139 @@ export default function HomePage() {
             <div className="overflow-hidden">
               <div className="flex gap-3 marquee-left w-max">
                 {/* Set 1 */}
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="King of Boys" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">KING OF BOYS</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/commercial/COMM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="TV Commercial Reel" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TV COMMERCIAL REEL</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Wizkid Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">WIZKID MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Burna Boy Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">BURNA BOY MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV4.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Tiwa Savage Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TIWA SAVAGE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/DOCUMENTARY/DOC1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Documentary Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">DOCUMENTARY FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SHORTFILM/SHORT.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Short Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SHORT FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SOCIAL MEDIA MARKETING/SOCM.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Social Media Campaign" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / DP</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SOCIAL MEDIA CAMPAIGN</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV5.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="2Face Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">2FACE MUSIC VIDEO</p></div>
                 </div>
                 {/* Duplicate 1 */}
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="King of Boys" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">KING OF BOYS</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/commercial/COMM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="TV Commercial Reel" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TV COMMERCIAL REEL</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Wizkid Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">WIZKID MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Burna Boy Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">BURNA BOY MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV4.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Tiwa Savage Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TIWA SAVAGE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/DOCUMENTARY/DOC1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Documentary Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">DOCUMENTARY FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SHORTFILM/SHORT.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Short Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SHORT FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SOCIAL MEDIA MARKETING/SOCM.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Social Media Campaign" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / DP</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SOCIAL MEDIA CAMPAIGN</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV5.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="2Face Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">2FACE MUSIC VIDEO</p></div>
                 </div>
                 {/* Duplicate 2 */}
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="King of Boys" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">KING OF BOYS</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/commercial/COMM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="TV Commercial Reel" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TV COMMERCIAL REEL</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Wizkid Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">WIZKID MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Burna Boy Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">BURNA BOY MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV4.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Tiwa Savage Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TIWA SAVAGE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/DOCUMENTARY/DOC1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Documentary Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">DOCUMENTARY FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SHORTFILM/SHORT.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Short Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SHORT FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SOCIAL MEDIA MARKETING/SOCM.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Social Media Campaign" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / DP</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SOCIAL MEDIA CAMPAIGN</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV5.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="2Face Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">2FACE MUSIC VIDEO</p></div>
@@ -220,139 +220,139 @@ export default function HomePage() {
             <div className="overflow-hidden">
               <div className="flex gap-3 marquee-right w-max">
                 {/* Set 1 (Reverse) */}
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV5.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="2Face Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">2FACE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SOCIAL MEDIA MARKETING/SOCM.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Social Media Campaign" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / DP</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SOCIAL MEDIA CAMPAIGN</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SHORTFILM/SHORT.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Short Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SHORT FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/DOCUMENTARY/DOC1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Documentary Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">DOCUMENTARY FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV4.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Tiwa Savage Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TIWA SAVAGE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Burna Boy Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">BURNA BOY MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Wizkid Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">WIZKID MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/commercial/COMM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="TV Commercial Reel" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TV COMMERCIAL REEL</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="King of Boys" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">KING OF BOYS</p></div>
                 </div>
                 {/* Duplicate 1 */}
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV5.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="2Face Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">2FACE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SOCIAL MEDIA MARKETING/SOCM.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Social Media Campaign" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / DP</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SOCIAL MEDIA CAMPAIGN</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SHORTFILM/SHORT.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Short Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SHORT FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/DOCUMENTARY/DOC1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Documentary Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">DOCUMENTARY FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV4.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Tiwa Savage Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TIWA SAVAGE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Burna Boy Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">BURNA BOY MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Wizkid Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">WIZKID MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/commercial/COMM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="TV Commercial Reel" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TV COMMERCIAL REEL</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="King of Boys" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">KING OF BOYS</p></div>
                 </div>
                 {/* Duplicate 2 */}
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV5.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="2Face Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">2FACE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SOCIAL MEDIA MARKETING/SOCM.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Social Media Campaign" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / DP</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SOCIAL MEDIA CAMPAIGN</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/SHORTFILM/SHORT.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Short Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">SHORT FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/DOCUMENTARY/DOC1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Documentary Film" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DIRECTOR / CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">DOCUMENTARY FILM</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV4.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Tiwa Savage Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TIWA SAVAGE MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Burna Boy Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">BURNA BOY MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="Wizkid Music Video" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">DP / LIGHTING DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">WIZKID MUSIC VIDEO</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/commercial/COMM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="TV Commercial Reel" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER / DIRECTOR</p><p className="font-display text-lg font-bold text-[#F0EDE8]">TV COMMERCIAL REEL</p></div>
                 </div>
-                <div className="w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
+                <div className="w-[300px] md:w-[500px] shrink-0 relative overflow-hidden rounded-2xl bg-[#111110] group cursor-pointer aspect-video">
                   <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" alt="King of Boys" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out"><p className="font-mono text-[9px] tracking-[0.3em] uppercase text-[#D4912A] mb-1">CINEMATOGRAPHER</p><p className="font-display text-lg font-bold text-[#F0EDE8]">KING OF BOYS</p></div>
@@ -388,8 +388,8 @@ export default function HomePage() {
               <div className="aspect-21-9 relative overflow-hidden bg-[#111110]">
                 <img src="/images/FULL LENGTH FILM/FILM 1.jpg" className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" alt="King of Boys" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12 flex justify-between items-end">
-                  <h3 className="font-display text-4xl md:text-7xl font-bold tracking-tighter">KING OF BOYS</h3>
+                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 lg:p-12 flex flex-col gap-2 md:flex-row md:justify-between md:items-end">
+                  <h3 className="font-display text-2xl md:text-4xl lg:text-7xl font-bold tracking-tighter">KING OF BOYS</h3>
                   <div className="text-right">
                     <p className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-[#D4912A] uppercase mb-1">CINEMATOGRAPHER</p>
                     <p className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-white/50 uppercase">FEATURE FILM / 2018</p>
@@ -403,8 +403,8 @@ export default function HomePage() {
               <div className="aspect-21-9 relative overflow-hidden bg-[#111110]">
                 <img src="/images/MUSIC VIDEO/MSC VIDEO.jpg" className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" alt="Wizkid - Essence" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12 flex justify-between items-end">
-                  <h3 className="font-display text-4xl md:text-7xl font-bold tracking-tighter">WIZKID - ESSENCE</h3>
+                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 lg:p-12 flex flex-col gap-2 md:flex-row md:justify-between md:items-end">
+                  <h3 className="font-display text-2xl md:text-4xl lg:text-7xl font-bold tracking-tighter">WIZKID - ESSENCE</h3>
                   <div className="text-right">
                     <p className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-[#D4912A] uppercase mb-1">DP / LIGHTING DIRECTOR</p>
                     <p className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-white/50 uppercase">MUSIC VIDEO / 2021</p>
@@ -418,8 +418,8 @@ export default function HomePage() {
               <div className="aspect-21-9 relative overflow-hidden bg-[#111110]">
                 <img src="/images/MUSIC VIDEO/MSCV 2.jpg" className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" alt="Burna Boy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12 flex justify-between items-end">
-                  <h3 className="font-display text-4xl md:text-7xl font-bold tracking-tighter">BURNA BOY</h3>
+                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 lg:p-12 flex flex-col gap-2 md:flex-row md:justify-between md:items-end">
+                  <h3 className="font-display text-2xl md:text-4xl lg:text-7xl font-bold tracking-tighter">BURNA BOY</h3>
                   <div className="text-right">
                     <p className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-[#D4912A] uppercase mb-1">DIRECTOR / DP</p>
                     <p className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-white/50 uppercase">MUSIC VIDEO / 2023</p>
@@ -447,14 +447,14 @@ export default function HomePage() {
         </section>
 
         {/* ── CTA Section ── */}
-        <section className="section-gap px-6 md:px-12 flex flex-col items-center justify-center text-center">
+        <section className="section-gap px-4 md:px-12 flex flex-col items-center justify-center text-center">
           <p className="font-mono text-xs tracking-[0.4em] text-[#D4912A] mb-8 uppercase">READY TO BEGIN?</p>
           <h2 className="font-brutal text-4xl md:text-8xl mb-16 tracking-tighter leading-none">
             LET&apos;S CREATE <br /> <span className="text-gold-gradient">SOMETHING</span>
           </h2>
           <Link
             href="/contact"
-            className="btn-glow font-mono text-sm tracking-[0.3em] border border-[#1A1918] px-16 py-6 uppercase hover:bg-white hover:text-black transition-all duration-500 rounded-full"
+            className="btn-glow font-mono text-sm tracking-[0.3em] border border-[#1A1918] px-8 py-4 md:px-16 md:py-6 uppercase hover:bg-white hover:text-black transition-all duration-500 rounded-full"
           >
             INQUIRIES
           </Link>
