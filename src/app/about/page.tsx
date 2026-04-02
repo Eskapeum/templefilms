@@ -15,8 +15,8 @@ export default function AboutPage() {
         <main className="flex-1">
           {/* Page Title Header */}
           <header className="pt-48 pb-24 px-6 md:px-12 text-center">
-            <h1 className="font-display text-massive font-bold mb-6 animate-reveal">
-              THE STORY
+            <h1 className="font-display text-[14vw] md:text-[10vw] font-bold leading-[0.9] tracking-tighter text-[#F0EDE8] uppercase mb-6 animate-reveal">
+              THE <span className="text-gold-gradient">STORY</span>
             </h1>
             <p
               className="font-mono text-xs md:text-sm tracking-[0.4em] text-[#D4912A] uppercase opacity-0 animate-reveal"
