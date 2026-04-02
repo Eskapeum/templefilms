@@ -149,22 +149,6 @@ export const projects: Project[] = [
 
   // ── MUSIC VIDEOS ──
   {
-    id: "mv-1",
-    title: "Wizkid Music Video",
-    category: "music-videos",
-    role: "DP / Lighting Director",
-    thumbnail: "/images/MUSIC VIDEO/MSC VIDEO.jpg",
-    year: "2021",
-  },
-  {
-    id: "mv-2",
-    title: "Burna Boy Music Video",
-    category: "music-videos",
-    role: "Cinematographer / Director",
-    thumbnail: "/images/MUSIC VIDEO/MSCV 1.jpg",
-    year: "2022",
-  },
-  {
     id: "mv-3",
     title: "Tiwa Savage Music Video",
     category: "music-videos",
@@ -425,8 +409,6 @@ export const reels = [
 export const credentials = [
   "NYFA ALUMNI",
   "KING OF BOYS (NETFLIX)",
-  "WIZKID",
-  "BURNA BOY",
   "TIWA SAVAGE",
   "2FACE",
   "NEW YORK FILM ACADEMY",

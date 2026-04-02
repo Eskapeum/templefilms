@@ -59,7 +59,7 @@ export default function AboutPage() {
                     As a cinematographer, he has collaborated with industry
                     titans including{" "}
                     <span className="text-[#F0EDE8] italic font-display">
-                      Wizkid, Burna Boy, Tiwa Savage,
+                      Tiwa Savage,
                     </span>{" "}
                     and{" "}
                     <span className="text-[#F0EDE8] italic font-display">
@@ -103,12 +103,6 @@ export default function AboutPage() {
                   </li>
                   <li className="font-mono text-sm md:text-base tracking-wide text-[#F0EDE8] uppercase">
                     KING OF BOYS — NETFLIX ORIGINAL
-                  </li>
-                  <li className="font-mono text-sm md:text-base tracking-wide text-[#F0EDE8] uppercase">
-                    WIZKID (SESS / ESSENCE)
-                  </li>
-                  <li className="font-mono text-sm md:text-base tracking-wide text-[#F0EDE8] uppercase">
-                    BURNA BOY (GLOBAL TOUR REEL)
                   </li>
                   <li className="font-mono text-sm md:text-base tracking-wide text-[#F0EDE8] uppercase">
                     TIWA SAVAGE (WATER &amp; GARRI)
