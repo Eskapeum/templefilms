@@ -13,12 +13,8 @@ export default function ContactPage() {
       <main>
         {/* Hero */}
         <section className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6">
-          <h1
-            className="font-display text-white font-bold tracking-tighter leading-[0.85] flex flex-col"
-            style={{ fontSize: "clamp(3rem, 15vw, 10rem)" }}
-          >
-            <span>LETS</span>
-            <span className="text-[#D4912A]">CREATE</span>
+          <h1 className="font-brutal text-4xl md:text-8xl tracking-tighter leading-none">
+            LETS <br /> <span className="text-gold-gradient">CREATE</span>
           </h1>
         </section>
 

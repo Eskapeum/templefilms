@@ -138,8 +138,8 @@ export default function AboutPage() {
 
           {/* CTA Section */}
           <section className="py-48 px-6 md:px-12 text-center">
-            <h2 className="font-brutal text-3xl md:text-5xl lg:text-7xl mb-16 tracking-tighter uppercase">
-              START A <span className="text-[#D4912A]">CONVERSATION</span>
+            <h2 className="font-brutal text-4xl md:text-8xl mb-16 tracking-tighter leading-none uppercase">
+              START A <br /> <span className="text-gold-gradient">CONVERSATION</span>
             </h2>
             <a
               href="/contact"
