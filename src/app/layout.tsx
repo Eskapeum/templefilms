@@ -18,8 +18,13 @@ export const metadata: Metadata = {
     "TempleFilms",
   ],
   icons: {
-    icon: "/favicon.png",
-    apple: "/apple-icon.png",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: [
+      { url: "/apple-icon.png", type: "image/png" },
+    ],
   },
   openGraph: {
     title: "Olabode Lawal | Cinematographer & Director",
