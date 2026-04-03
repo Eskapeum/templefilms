@@ -146,6 +146,14 @@ export const projects: Project[] = [
     thumbnail: "/images/commercial/COMM6.jpg",
     year: "2024",
   },
+  {
+    id: "comm-7",
+    title: "TV Commercial VII",
+    category: "commercials",
+    role: "Cinematographer / Director",
+    thumbnail: "/images/commercial/COMM7.png",
+    year: "2025",
+  },
 
   // ── MUSIC VIDEOS ──
   {
