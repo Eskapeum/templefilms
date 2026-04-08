@@ -32,7 +32,7 @@ export default function AboutPage() {
             style={{ animationDelay: "0.5s" }}
           >
             <img
-              src="/images/DJI_20260222095141_0009_D.00_04_25_06.Still001.jpg"
+              src="/images/Lee-Profile.jpg"
               className="w-full h-full object-cover grayscale brightness-75"
               alt="Cinematic production still"
             />
